@@ -5,16 +5,16 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: auto;
   padding: 20px;
   border: 2px solid #db0d97; 
 }
 
 .menu {
-  max-width: 800px;
+  align: right;
+  max-width: 1000px;
   margin: auto;
-  padding: 10px;
   border: 2px solid #550ddb; 
 }
 
@@ -30,20 +30,42 @@ header {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 20px;
+  border: 2px solid #db0d97; 
 }
 
 .logo {
   max-width: 100px;
 }
 
+.effect {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #134714;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 20;
+  font-weight: bold;
+  color: #134714;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin: 20;
+  margin-left: 1000; 
 }
 
 nav ul li {
   display: inline;
+  font-size: 30px;
   margin-right: 20px;
 }
 
