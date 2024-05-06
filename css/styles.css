@@ -85,6 +85,12 @@ nav ul li a:hover {
   color: #4CAF50;
 }
 
+.container-serv {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
 footer {
   bottom: 0;
   width: 100%;
